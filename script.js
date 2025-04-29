@@ -31,3 +31,8 @@ botaoAcessibilidade.setAttribute('aria-expanded', !botaoSelecionado);
         document.body.classList.toggle('alto-contraste');
     })
 });
+
+ScroolReveal().reveal('#inicio', {delay: 500});
+ScroolReveal().reveal('#galeria', {delay: 500});
+ScroolReveal().reveal('#tropicália', {delay: 500});
+ScroolReveal().reveal('#contato', {delay: 500});
